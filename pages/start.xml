@@ -1,4 +1,8 @@
-<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page
+  id="start"
+  bg_image="download_9_.jpeg"
+  bg_music="cute_creatures_150622.mp3"
+>
   <agent
     id="title"
     text="Luli e o cristal perdido!"
