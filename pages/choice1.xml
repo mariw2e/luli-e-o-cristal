@@ -38,7 +38,7 @@
     x="center"
     color="ghostwhite"
     radius="20"
-    on_click="goToPage('choice1')"
+    on_click="goToPage('secretroom')"
     font-size="22"
   />
   <agent
