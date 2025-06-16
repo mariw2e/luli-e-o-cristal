@@ -12,9 +12,10 @@ Você é Luli, a coelhinha de orelhas brilhantes."
     x="center"
     y="center"
     font-size="30"
-    border_color="lightpink"
-    border="dotted"
-    bg_color="pink"
+    border_color="pink"
+    border="solid"
+    bg_color="lightpink"
+    width="500"
   />
   <agent
     id="next_page_text"
