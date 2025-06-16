@@ -1,2 +1,46 @@
 <page id="triste" bg_image="_64017_good.jpeg">
-</page>
+ <agent
+    id="lulisad"
+    image="download_6_.gif"
+    width="200"
+    animation="fade-in"
+    x="500"
+    y="300"
+  />
+   <agent
+    id="opa"
+    text="Você não conseguiu!"
+    color="pink"
+    x="center"
+    y="center"
+    font-size="60"
+  />
+<agent
+    id="tentar"
+    text="tentar de novo"
+    border="dotted"
+    border_color="pink"
+    bg_color="transparent"
+    animation="hover-bg-color-[#FFF0F5] hover-color-[#C71585]"
+    y="400"
+    x="240"
+    color="hotpink"
+    radius="20"
+    on_click="goToPage('puzzle')"
+    font-size="25"
+/>
+<agent
+  id="eit"
+    text="início"
+    border="dotted"
+    border_color="pink"
+    bg_color="transparent"
+    animation="hover-bg-color-[#FFF0F5] hover-color-[#C71585]"
+    y="400"
+    x="450"
+    color="hotpink"
+    radius="20"
+    on_click="goToPage('start')"
+    font-size="25"
+/>
+</page >
