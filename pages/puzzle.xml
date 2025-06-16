@@ -1,3 +1,1 @@
-<page id="puzzle" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página puzzle" color="white" font-size="24" />
-</page>
+<page id="puzzle" bg_image="puzzle.png" />
