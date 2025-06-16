@@ -1,5 +1,5 @@
-<page id="choice1" bg_image="door_stretching_into_fantasy_world.jpg" >
- <agent
+<page id="choice1" bg_image="door_stretching_into_fantasy_world.jpg">
+  <agent
     id="adquirir"
     text="parabéns! Você acaba de adquirir o pó de brilho"
     color="white"
@@ -14,7 +14,7 @@
     animation="glitch"
   />
 
- <agent
+  <agent
     id="tree"
     text="Mais à frente, Luli encontra uma árvore com uma rachadura brilhante."
     color="green"
@@ -27,8 +27,8 @@
     width="500"
     radius="20"
   />
- <agent
-    id="next_page_t"
+  <agent
+    id="eba"
     text="deseja usar o pó de brilho?"
     border="dotted"
     border_color="#FFF0F5"
@@ -41,12 +41,12 @@
     on_click="goToPage('choice1')"
     font-size="22"
   />
- <agent
-    id="next_pag"
+  <agent
+    id="voltar"
     text="voltar"
     border="dotted"
     border_color="#FFF0F5"
-   bg_color="lightyellow"
+    bg_color="lightyellow"
     animation="hover-bg-color-[mediumseagreen] hover-color-[lightyellow]"
     y="440"
     x="center"
@@ -54,5 +54,5 @@
     radius="20"
     on_click="goToPage('flor')"
     font-size="22"
-/>
+  />
 </page>
