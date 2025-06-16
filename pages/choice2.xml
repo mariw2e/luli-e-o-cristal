@@ -1,5 +1,5 @@
 <page id="choice2" bg_image="door_stretching_into_fantasy_world.jpg">
- <agent
+  <agent
     id="nadquirir"
     text="Voê não adquiriu o pó de brilho."
     color="white"
@@ -14,9 +14,8 @@
     animation="glitch"
   />
 
-
   <agent
-    id="tree"
+    id="tree2"
     text="Mais à frente, Luli encontra uma árvore com uma rachadura brilhante."
     color="green"
     x="center"
@@ -29,7 +28,7 @@
     radius="20"
   />
   <agent
-    id="eba"
+    id="eba2"
     text="deseja usar o pó de brilho?"
     border="dotted"
     border_color="#FFF0F5"
@@ -42,7 +41,7 @@
     font-size="22"
   />
   <agent
-    id="voltar"
+    id="voltar2"
     text="voltar"
     border="dotted"
     border_color="#FFF0F5"
