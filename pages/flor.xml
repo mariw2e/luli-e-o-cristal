@@ -20,4 +20,33 @@
     x="center"
     y="80"
   />
-</page>
+ <agent
+    id="next_page_t"
+    text="pegar a flor"
+    border="dotted"
+    border_color="#FFF0F5"
+    bg_color="whitesmoke"
+    animation="hover-bg-color-[mediumpurple] hover-color-[purple]"
+    y="370"
+    x="210"
+    color="purple"
+    radius="20"
+    on_click="goToPage('choice1')"
+    font-size="25"
+  />
+
+ <agent
+    id="next_pag"
+    text="ignorar"
+    border="dotted"
+    border_color="#FFF0F5"
+    bg_color="whitesmoke"
+    animation="hover-bg-color-[mediumpurple] hover-color-[purple]"
+    y="370"
+    x="460"
+    color="purple"
+    radius="20"
+    on_click="goToPage('middle')"
+    font-size="25"
+/>
+</page >
