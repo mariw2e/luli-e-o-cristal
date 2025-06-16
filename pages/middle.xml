@@ -3,6 +3,14 @@
   bg_image="whatsapp_image_2025_06_15_at_01_26_52.jpeg"
   bg_music="cute_creatures_150622.mp"
 >
+ <agent
+    id="luli"
+    image="download_3_.gif"
+    width="250"
+    animation="fade-in"
+    x="center"
+    y="50"
+  />
   <agent
     id="teste"
     text="O céu está cinza no Reino de Lunalume.
@@ -16,6 +24,7 @@ Você é Luli, a coelhinha de orelhas brilhantes."
     border="solid"
     bg_color="lightpink"
     width="500"
+    radius="20"
   />
   <agent
     id="next_page_text"
@@ -24,11 +33,26 @@ Você é Luli, a coelhinha de orelhas brilhantes."
     border_color="#FFF0F5"
     bg_color="transparent"
     animation="hover-bg-color-[#FFF0F5] hover-color-[#C71585]"
-    y="430"
+    y="460"
     x="350"
     color="hotpink"
     radius="20"
     on_click="goToPage('ending')"
     font-size="25"
   />
+<agent
+  id="missao"
+  text="Sua missão: encontrar e devolver o cristal."
+   color="pink"
+    x="150"
+    y="400"
+    font-size="25"
+    border_color="pink"
+    border="solid"
+    bg_color="white"
+    width="500"
+    radius="20"
+  animation="glitch"
+  
+/>
 </page>
