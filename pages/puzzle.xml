@@ -6,8 +6,8 @@
     font-size="25"
     x="1"
     y="50"
-  bg_color="lightyellow"
-  radius="20"
+    bg_color="lightyellow"
+    radius="20"
   />
 
   <agent
@@ -17,7 +17,7 @@
     font-size="25"
     x="center"
     y="150"
-  bg_color="pink"
+    bg_color="pink"
     radius="20"
   />
 
@@ -29,7 +29,7 @@
     font-size="30"
     x="center"
     y="230"
-  on_click="goToPage('flor')"
+    on_click="goToPage('flor')"
     color="white"
   />
 
