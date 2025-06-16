@@ -41,7 +41,7 @@
     font-size="30"
     x="center"
     y="380"
-    on_click="goToPage('flor')"
+    on_click="goToPage('parabens')"
   />
 
   <agent
