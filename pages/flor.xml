@@ -1,3 +1,23 @@
-<page id="flor" bg_image="7073339.jpg" bg_music="cute_creatures_150622.mp3" />
+<page id="flor" bg_image="7073339.jpg" bg_music="cute_creatures_150622.mp3">
+  <agent
+    id="florzita"
+    text="Luli anda pela floresta e encontra uma flor rosa que flutua e brilha."
+    color="white"
+    x="center"
+    y="center"
+    font-size="30"
+    border_color="pink"
+    border="solid"
+    bg_color="mediumpurple"
+    width="500"
+    radius="20"
+  />
+  <agent
+    id="shine"
+    image="download_5_.gif"
+    width="220"
+    animation="fade-in"
+    x="center"
+    y="80"
+  />
 </page>
-
