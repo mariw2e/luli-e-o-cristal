@@ -37,7 +37,7 @@ Você é Luli, a coelhinha de orelhas brilhantes."
     x="350"
     color="hotpink"
     radius="20"
-    on_click="goToPage('ending')"
+    on_click="goToPage('flor')"
     font-size="25"
   />
   <agent
