@@ -5,19 +5,29 @@
 >
   <agent
     id="teste"
-    text="Hello World Middle"
+    text="O céu está cinza no Reino de Lunalume.
+       O Cristal do Arco-Íris desapareceu!
+Você é Luli, a coelhinha de orelhas brilhantes."
     color="white"
     x="center"
     y="center"
-    font-size="70"
+    font-size="30"
+    border_color="lightpink"
+    border="dotted"
+    bg_color="pink"
   />
-
   <agent
-    id="eita"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
+    id="next_page_text"
+    text="continuar"
+    border="dotted"
+    border_color="#FFF0F5"
+    bg_color="transparent"
+    animation="hover-bg-color-[#FFF0F5] hover-color-[#C71585]"
+    y="430"
+    x="350"
+    color="hotpink"
+    radius="20"
     on_click="goToPage('ending')"
+    font-size="25"
   />
 </page>
