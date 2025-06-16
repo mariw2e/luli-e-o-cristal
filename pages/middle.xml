@@ -1,4 +1,8 @@
-<page id="middle" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page
+  id="middle"
+  bg_image="whatsapp_image_2025_06_15_at_01_26_52.jpeg"
+  bg_music="cute_creatures_150622.mp"
+>
   <agent
     id="teste"
     text="Hello World Middle"
@@ -9,7 +13,7 @@
   />
 
   <agent
-    id="next_page_text"
+    id="eita"
     text="Proxima Pagina"
     animation="glitch"
     y="480"
