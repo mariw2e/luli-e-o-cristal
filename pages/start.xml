@@ -1,23 +1,29 @@
 <page
   id="start"
-  bg_image="download_9_.jpeg"
+  bg_image="_64017_good.jpeg"
   bg_music="cute_creatures_150622.mp3"
 >
   <agent
     id="title"
     text="Luli e o cristal perdido!"
-    color="white"
+    color="pink"
     x="center"
     y="center"
-    font-size="70"
+    font-size="60"
   />
 
   <agent
     id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
+    text="Começar"
+    border="dotted"
+    border_color="#FFF0F5"
+    bg_color="transparent"
+    animation="hover-bg-color-[#FFF0F5] hover-color-[#C71585]"
+    y="430"
+    x="350"
+    color="hotpink"
+    radius="20"
     on_click="goToPage('middle')"
+    font-size="25"
   />
 </page>
