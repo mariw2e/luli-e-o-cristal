@@ -2,51 +2,56 @@
   <agent
     id="question"
     text="Eita, aparentemente você terá que responder uma pergunta para abrir o baú, vai encarar?"
-    color="black"
+    color="brown"
     font-size="25"
-    x="285"
-    y="135"
+    x="1"
+    y="50"
+  bg_color="lightyellow"
+  radius="20"
   />
 
   <agent
     id="codigo"
-    text="estudante = João  /  print(?)"
-    color="blue"
-    font-size="23"
-    x="270"
-    y="180"
+    text="Quantas cores tem no arco-íris?"
+    color="black"
+    font-size="25"
+    x="center"
+    y="150"
+  bg_color="pink"
+    radius="20"
   />
 
   <agent
     id="opcao_um"
-    text="print(estudante)"
-    bg_color="seagreen"
+    text="12"
+    bg_color="palevioletred"
     radius="15"
-    font-size="20"
-    x="330"
-    y="250"
-    on_click="set(visible_iscas, true)"
+    font-size="30"
+    x="center"
+    y="230"
+  on_click="goToPage('flor')"
+    color="white"
   />
 
   <agent
     id="opcao_tres"
-    text="print(ufmacomp)"
-    bg_color="$corzinha1"
+    text="7"
+    bg_color="slateblue"
     radius="15"
-    font-size="20"
-    x="330"
-    y="359"
-    on_click="set(corzinha1, 'darkred')"
+    font-size="30"
+    x="center"
+    y="380"
+    on_click="goToPage('flor')"
   />
 
   <agent
     id="opcao_dois"
-    text="print(feijao)"
-    bg_color="$corzinha"
+    text="9"
+    bg_color="limegreen"
     radius="15"
-    font-size="20"
-    x="347"
+    font-size="30"
+    x="center"
     y="305"
-    on_click="set(corzinha, 'darkred')"
+    on_click="goToPage('ending')"
   />
 </page>
