@@ -1,3 +1,1 @@
-<page id="flor" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página flor" color="white" font-size="24" />
-</page>
+<page id="fulo" bg_image="7073339.jpg" bg_music="cute_creatures_150622.mp3" />
