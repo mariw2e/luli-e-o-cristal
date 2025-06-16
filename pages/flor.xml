@@ -46,7 +46,7 @@
     x="460"
     color="purple"
     radius="20"
-    on_click="goToPage('middle')"
+    on_click="goToPage('choice2')"
     font-size="25"
 />
 </page >
