@@ -3,7 +3,7 @@
   bg_image="whatsapp_image_2025_06_15_at_01_26_52.jpeg"
   bg_music="cute_creatures_150622.mp"
 >
- <agent
+  <agent
     id="luli"
     image="download_3_.gif"
     width="250"
@@ -27,7 +27,7 @@ Você é Luli, a coelhinha de orelhas brilhantes."
     radius="20"
   />
   <agent
-    id="next_page_text"
+    id="next_page"
     text="continuar"
     border="dotted"
     border_color="#FFF0F5"
@@ -40,10 +40,10 @@ Você é Luli, a coelhinha de orelhas brilhantes."
     on_click="goToPage('ending')"
     font-size="25"
   />
-<agent
-  id="missao"
-  text="Sua missão: encontrar e devolver o cristal."
-   color="pink"
+  <agent
+    id="missao"
+    text="Sua missão: encontrar e devolver o cristal."
+    color="pink"
     x="150"
     y="400"
     font-size="25"
@@ -52,7 +52,6 @@ Você é Luli, a coelhinha de orelhas brilhantes."
     bg_color="white"
     width="500"
     radius="20"
-  animation="glitch"
-  
-/>
+    animation="glitch"
+  />
 </page>
