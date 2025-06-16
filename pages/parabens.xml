@@ -27,12 +27,12 @@
     border="dotted"
     border_color="#FFF0F5"
     bg_color="white"
-    animation="hover-bg-color-[#FFF0F5] hover-color-[#C71585]"
-    y="430"
-    x="350"
+    animation="hover-bg-color-[purple] hover-color-[white]"
+    y="520"
+    x="center"
     color="purple"
     radius="20"
-    on_click="goToPage('middle')"
+    on_click="goToPage('ending')"
     font-size="25"
   />
 </page>
