@@ -1,3 +1,24 @@
-<page id="parabens" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página parabens" color="white" font-size="24" />
+<page id="parabens" bg_image="aberto.png">
+  <agent
+    id="cristal"
+    image="heart.gif"
+    width="160"
+    x="center"
+    y="130"
+    animation="fade-in-up"
+  />
+  <agent
+    id="isso"
+    text="Você encontrou o cristal!!!"
+    color="white"
+    x="225"
+    y="50"
+    font-size="35"
+    border_color="mediumpurple"
+    border="solid"
+    bg_color="transparent"
+    width=" "
+    radius="20"
+    animation="glitch"
+  />
 </page>
