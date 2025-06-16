@@ -1,1 +1,52 @@
-<page id="puzzle" bg_image="puzzle.png" />
+<page id="puzzle" bg_image="puzzle.png">
+  <agent
+    id="question"
+    text="Eita, aparentemente você terá que responder uma pergunta para abrir o baú, vai encarar?"
+    color="black"
+    font-size="25"
+    x="285"
+    y="135"
+  />
+
+  <agent
+    id="codigo"
+    text="estudante = João  /  print(?)"
+    color="blue"
+    font-size="23"
+    x="270"
+    y="180"
+  />
+
+  <agent
+    id="opcao_um"
+    text="print(estudante)"
+    bg_color="seagreen"
+    radius="15"
+    font-size="20"
+    x="330"
+    y="250"
+    on_click="set(visible_iscas, true)"
+  />
+
+  <agent
+    id="opcao_tres"
+    text="print(ufmacomp)"
+    bg_color="$corzinha1"
+    radius="15"
+    font-size="20"
+    x="330"
+    y="359"
+    on_click="set(corzinha1, 'darkred')"
+  />
+
+  <agent
+    id="opcao_dois"
+    text="print(feijao)"
+    bg_color="$corzinha"
+    radius="15"
+    font-size="20"
+    x="347"
+    y="305"
+    on_click="set(corzinha, 'darkred')"
+  />
+</page>
