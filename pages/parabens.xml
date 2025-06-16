@@ -21,4 +21,18 @@
     radius="20"
     animation="glitch"
   />
+  <agent
+    id="prosseguir"
+    text="Prosseguir"
+    border="dotted"
+    border_color="#FFF0F5"
+    bg_color="white"
+    animation="hover-bg-color-[#FFF0F5] hover-color-[#C71585]"
+    y="430"
+    x="350"
+    color="purple"
+    radius="20"
+    on_click="goToPage('middle')"
+    font-size="25"
+  />
 </page>
