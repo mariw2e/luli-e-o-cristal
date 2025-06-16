@@ -29,7 +29,7 @@
     font-size="30"
     x="center"
     y="230"
-    on_click="goToPage('flor')"
+    on_click="goToPage('triste')"
     color="white"
   />
 
@@ -52,6 +52,6 @@
     font-size="30"
     x="center"
     y="305"
-    on_click="goToPage('ending')"
+    on_click="goToPage('triste')"
   />
 </page>
