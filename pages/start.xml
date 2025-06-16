@@ -4,6 +4,14 @@
   bg_music="cute_creatures_150622.mp3"
 >
   <agent
+    id="luli"
+    image="download_3_.gif"
+    width="250"
+    animation="fade-in"
+    x="center"
+    y="80"
+  />
+  <agent
     id="title"
     text="Luli e o cristal perdido!"
     color="pink"
